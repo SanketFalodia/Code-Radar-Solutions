@@ -7,5 +7,5 @@ char* welcome() {
 int main() {
     float f;
     scanf("%f", &f);
-    printf("%f\n"f);
+    printf("%f\n",f);
 }
