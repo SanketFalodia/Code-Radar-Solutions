@@ -9,5 +9,5 @@ int main(){
         a=a>>1
         pos++;
     }
-    printf("%d",pos)
+    printf("%d",pos);
 }
