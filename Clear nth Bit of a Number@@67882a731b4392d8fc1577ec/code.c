@@ -6,3 +6,4 @@ int main(){
     int res;
     res= a &~(1<<b);
     printf("%d\n",res);
+}
