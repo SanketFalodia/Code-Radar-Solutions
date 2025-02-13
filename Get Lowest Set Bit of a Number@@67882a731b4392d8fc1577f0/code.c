@@ -3,10 +3,10 @@
 #include <stdio.h>
 int main(){
     int a;
-    int pos=1;
+    int pos=0;
     scanf("%d",&a);
-    while((a & 1)==1){
-        a=a>>1;
+    while((a & 1)==0){
+        a=a >> 1;
         pos++;
     }
     printf("%d",pos);
