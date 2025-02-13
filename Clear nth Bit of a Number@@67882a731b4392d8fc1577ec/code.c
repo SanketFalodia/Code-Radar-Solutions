@@ -5,9 +5,4 @@ int main(){
     scanf("%d %d",&a,&b);
     int res;
     res= a &~(1<<b);
-    if (res==5){
-        printf("Set");
-        return 0;
-    }
-    printf("Not Set");
-}
+    printf("%d\n",res);
