@@ -1,8 +1,7 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int a;
-    int i;
+    unsigned int a;
     int count=0;
     scanf("%d",&a);
     int bits = sizeof(a)*8;
