@@ -17,8 +17,6 @@ int countLeadingZeros(unsigned int num) {
 
 int main() {
     unsigned int num;
-
-    printf("Enter a number: ");
     scanf("%u", &num);
 
     int leadingZeros = countLeadingZeros(num);
