@@ -15,7 +15,7 @@ int main(){
     }
         }
         else{
-            if(arr[i]<arr[i-1])
+            if(arr[i]>arr[i-1])
             printf("%d",arr[i]);
             break;
 
