@@ -15,7 +15,7 @@ int main(){
             a=a+1;
         }
     }
-    printf("%d " " %d",c a);
+    printf("%d " " %d",c,a);
 
 
 }
