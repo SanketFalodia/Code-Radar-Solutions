@@ -12,5 +12,5 @@ int main(){
         scanf("%d",&ar[i]);
     }
     qsort(ar, n, sizeof(int), compare);
-    print("%d %d",ar[0],ar[n-1]);
+    printf("%d %d",ar[0],ar[n-1]);
 }
