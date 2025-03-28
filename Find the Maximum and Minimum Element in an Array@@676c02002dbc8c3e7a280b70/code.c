@@ -6,9 +6,10 @@ int compare(const void *a, const void *b) {
 
 int main(){
     int n;
+    int ar[n];
     scanf("%d",&n);
     for(int i=0;i<0;i++){
-        scanf("%d",&i);
+        scanf("%d",&ar[i]);
     }
     qsort(ar, n, sizeof(int), compare);
     print("%d %d",ar[0],ar[n-1]);
